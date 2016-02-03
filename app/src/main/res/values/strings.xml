@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- UI Strings -->
+    <string name="app_name">GithubExercise</string>
+    <string name="rails_issues_list_activity">Rails Issues List</string>
+    <string name="comments_dialog_title">Issue\'s Comments</string>
+    <string name="alert_dialog_close">Close</string>
+    <string name="no_comments_found">No Comments found for this issue!</string>
+
+    <!-- Error Strings-->
+    <string name="network_error">Please check your Network connection!</string>
+    <string name="error_fetching_server_data">Could not fetch server data, Error Occurred. You might be hitting the rate limit(60) of the API!</string>
+    <string name="fetched_server_data">Fetched Data!</string>
+
+</resources>

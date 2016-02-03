@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_issues_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/issue_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/list_vertical_margin"
+        android:paddingBottom="@dimen/list_vertical_margin"
+        android:textSize="@dimen/issue_title_text_size"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/issue_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/issue_title"
+        android:paddingBottom="@dimen/list_vertical_margin"
+        android:gravity="center_horizontal"
+        android:maxLength="@integer/issue_body_length"
+        android:textSize="@dimen/issue_body_text_size"/>
+
+</RelativeLayout>

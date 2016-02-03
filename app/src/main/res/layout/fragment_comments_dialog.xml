@@ -1,0 +1,41 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comments_dialog_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/indeterminate_progress_bar_color"
+            android:indeterminateTintMode="src_in"/>
+
+        <TextView
+            android:id="@+id/comments_dialog_body_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingRight="@dimen/dialog_horizontal_margin"
+            android:paddingLeft="@dimen/dialog_horizontal_margin"/>
+
+        <Button
+            android:id="@+id/comments_dialog_close_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dialog_vertical_margin"
+            android:paddingTop="@dimen/dialog_vertical_margin"
+            android:text="@string/alert_dialog_close"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
